@@ -1,17 +1,10 @@
 import Head from 'next/head'
+import Hero from '../components/views/home/hero/hero';
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>
-          WebDev News
-        </title>
-        <meta name='keywork' content='web development' />
-      </Head>
-      <h1>
-        Wecome
-      </h1>
+    <div id="home">
+      <Hero />
     </div>
-  )
+  );
 }
